@@ -1,0 +1,2 @@
+# djangosite
+first django try
