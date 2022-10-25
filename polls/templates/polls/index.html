@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+
     <head>
+
         <meta charset="UTF-8">
         <title>Page test Django</title>
         {% load static %}
         <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
     </head>
+
     <body>
+
         {% if latest_question_list %}
             <ul>
                 {% for question in latest_question_list %}
@@ -16,5 +21,7 @@
         {% else %}
             <p>No polls are available.</p>
         {% endif %}
+
     </body>
+
 </html>
